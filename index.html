@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <form name="box">
+        <label for="for_login">Login</label>
+        <br>
+        <input type="text" name="for_login" placeholder="Enter login">
+        <br>
+        <div class="wrong_login">Wrong login</div>
+        <label for="for_password">Password</label>
+        <br>
+        <input type="password" name="for_password" placeholder="Enter password">
+        <br>
+        <div class="wrong_password">Wrong password</div>
+        <label for="for_email">Email address</label>
+        <br>
+        <input type="text" name="for_email" placeholder="Enter email">
+        <br>
+        <div class="wrong_email">Wrong email</div>
+        <button type="button" name="add" class="add" id="add">Add user</button>
+        <button type="button" name="edit" id="edit">Edit user</button>
+    </form>
+
+    <table id="information">
+        <thead>
+            <th>#</th>
+            <th>Login</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

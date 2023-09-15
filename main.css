@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+input {    
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding-left: 15px;       
+}
+#add {    
+    width: 85px;
+    height: 40px;
+    border: 1px solid green;
+    background-color:white;
+    border-radius: 4px; 
+    color: green;
+    font-size: 14px;
+    margin-top: 15px;
+}	
+form {
+    float: left;
+    margin: 50px 0 0 50px;
+    width: 30%;
+}
+table {    
+    padding-top: 80px;
+    padding-left: 100px;
+    border-spacing: 0px; 
+    width: 800px; 
+}
+th {   
+    height: 35px;    
+    text-align: center;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+td {
+    padding: 3px;
+    width: 200px;
+    text-align: center;    
+    border-bottom: 1px solid silver;
+}
+#edit {
+    display: none;
+    width: 85px;
+    height: 40px;
+    border: 1px solid green;
+    background-color:white;
+    border-radius: 4px; 
+    color: green;
+    font-size: 14px;
+}
+.editing {
+    background-color:rgb(255, 251, 0);
+    border: 2px solid rgb(250, 171, 0);
+    border-radius: 4px; 
+    width: 60px;
+    height: 30px;   
+}
+.deleting {
+    background-color:rgb(0, 195, 255);
+    border: 1px solid rgb(7, 123, 255);
+    border-radius: 4px; 
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px skyblue;    
+}
+#add:hover {
+    background-color:green;
+    color: white;
+    transition-duration: 0.5S;
+}
+#edit:hover {
+    background-color:green;
+    color: white;
+    transition-duration: 0.5S;
+}
+.editing:hover {
+    background-color:rgb(255, 188, 55);
+    transition-duration: 0.5S;
+}
+.deleting:hover {
+    background-color:rgb(0, 119, 255);
+    transition-duration: 0.5S;
+}
+.wrong_login , .wrong_password, .wrong_email{
+    background-color: red;
+    width:500px;
+    height: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-top: -7px;
+    padding-left: 10px;
+    display: none;
+}
